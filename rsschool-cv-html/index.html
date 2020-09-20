@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>CV</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+		<style>
+
+</style>
+	</head>
+	<body>
+	<header>
+		<h1>Nadzeya Dorval</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Contacts</h2>
+			<figure><img src="pic.jpg" alt="cv" title="cv"></img></figure>
+			<p>hope04@yandex.ru </p>
+			<p>Minsk, Belarus</p>
+		</section>
+		<section>
+			<h2>About me</h2>
+			<p>Hello, I am Nasdzeya, a web-designer. This is my portfolio that shows some of my projects. It reflects a little bit my interests in web technologies. My goal in professional career is to continue to enrich my knowledges in this sphere. </p>
+		</section>
+		<section>
+			<h2>Skills</h2>
+			<ul>
+				<li>Web Design (UI Design, wireframes, prototypes, mockups)</li>
+				<li>Web development:</li>
+					<ul>
+						<li>HTML5/CSS/SASS</li>
+						<li>JQuery, Fabrics.js</li>
+						<li>PHP, Ajax, SQL</li>
+						<li>Laravel Framework / CMS Joomla / Wordpress</li>
+					</ul>
+			</ul>
+		</section>
+		<section>
+			<h2>Code examples</h2>
+			<h3>Website and app for architecture company (code based on Laravel).</h3>
+			<pre>
+				&lt;section class="banner full"&gt;
+				@foreach($variables as $texte)
+					&lt;article&gt;
+						&lt;title>{{$texte->titre}}&lt;/title&gt;
+						&lt;img src="data:image/jpeg;base64,{{base64_encode($texte->fichier)}}" /&gt;
+						&lt;div class="inner"&gt;
+							{!! $texte->texte !!}
+						&lt;/div&gt;
+					&lt;/article&gt;
+				@endforeach
+				@if  (Auth::check())
+				@else
+				&lt;button name="login"&gt;
+				  &lt;a href="{{route('home')}}">&lt;/a&gt;
+				&lt;/button&gt;
+				@endif
+			&lt;section&gt;
+			</pre>
+		</section>
+		<section>
+			<h2>Experience</h2>
+			<p>My experience in web development comes from my courses and some freelance projects.</p>
+		</section>
+		<section>
+			<h2>Education</h2>
+			<p>Master in art history at the Belarusian State University.</p>
+			<p>Web-design training (drawing, photoshop, coreldraw, flash, html/css...) at Belarusian State Technical University.</p>
+		</section>
+		<section>
+			<h2>English</h2>
+			<p>School and University studies, collaboration with foreign clients at my former job as web designer and in the freelance.</p>
+		</section>
+	</main>
+	</body>
+</html>
+

@@ -1,0 +1,48 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:0.9em;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+header, main, section, figure {
+	display: block;
+}
+main {
+	margin: 0 15px;
+}
+h1 
+{
+	font-size: 2.2em; 
+	color:#000066;
+	margin-bottom:0;
+}
+h2 
+{
+	font-size:1.8em;
+	color:#000066;
+	margin-top:0.1em;
+}
+h3
+{
+	font-size:1.2em; 
+	color:#C82605;
+	border-bottom-style:solid;
+	border-color:#C82605;
+	border-width:1px;
+}
+img {
+    background-color: #fff;
+    padding: 6px;
+		border: 1px solid #bf6d5d;
+}
+figure{
+margin-left:0;
+}
+ul
+{
+list-style: square;
+}
+.rouge
+{
+	color:#C82605;
+}
