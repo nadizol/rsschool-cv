@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scriptM.js" defer></script>
+</head>
+<body>
+  <div class="result">
+    <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item"><button class="nbr" id="1">1</button></div>
+    <div class="flex-item"><button class="nbr" id="2">2</button></div>
+    <div class="flex-item"><button class="nbr" id="3">3</button></div>
+    <div class="flex-item"><button class="oper">/</button></div>
+    <div class="flex-item"><button class="nbr" id="4">4</button></div>
+    <div class="flex-item"><button class="nbr" id="5">5</button></div>
+    <div class="flex-item"><button class="nbr" id="6">6</button></div>
+    <div class="flex-item"><button data-operation>*</button></div>
+    <div class="flex-item"><button class="nbr" id="7">7</button></div>
+    <div class="flex-item"><button class="nbr" id="8">8</button></div>
+    <div class="flex-item"><button class="nbr" id="9">9</button></div>
+    <div class="flex-item"><button data-operation>-</button></div>
+    <div class="flex-item"><button data-delete>DEL</button></div>
+    <div class="flex-item"><button data-number id="dot">.</button></div>
+    <div class="flex-item"><button class="nbr" id="0">0</button></div>
+    <div class="flex-item"><button data-operation>+</button></div>
+    <div class="flex-item"><button data-all-clear>AC</button></div>
+    <div class="flex-item"><button data-equals>=</button></div>
+  </div>
+</body>
+</html>
